@@ -15,6 +15,6 @@ return {
     }
 
     -- Keymap (works in normal + terminal mode)
-    vim.keymap.set({ 'n', 't' }, '<F5>', '<cmd>ToggleTerm<CR>', { silent = true })
+    vim.keymap.set({ 'n', 't' }, '<F7>', '<cmd>ToggleTerm<CR>', { silent = true })
   end,
 }
